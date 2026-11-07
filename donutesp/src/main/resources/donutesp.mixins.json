@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.donutesp.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "GameRendererMixin",
+    "WorldRendererMixin",
+    "ClientPlayerEntityMixin",
+    "FabricLoaderMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientConnectionMixin",
+    "CrashReportMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
